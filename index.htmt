@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chau Le | IT Manager & Digital Transformation Consultant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-200 font-sans selection:bg-blue-500 selection:text-white">
 
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter text-white underline decoration-blue-500 decoration-2">CHAU<span class="text-blue-500">LE.</span></span>
+            <div class="space-x-8 hidden md:flex text-xs font-semibold uppercase tracking-[0.2em]">
+                <a href="#expertise" class="hover:text-blue-400 transition">Expertise</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#consultancy" class="hover:text-blue-400 transition text-emerald-400">Collaboration</a>
+                <a href="mailto:chau@chaulee.com" class="bg-blue-600 px-5 py-2 rounded-full text-white hover:bg-blue-700 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-40 pb-20 px-6 max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        <div>
+            <h2 class="text-blue-500 font-mono mb-4 text-sm tracking-widest uppercase">Available for Consultancy</h2>
+            <h1 class="text-5xl lg:text-7xl font-extrabold text-white mb-6 leading-[1.1]">
+                IT Strategy & <br>
+                <span class="text-slate-500 italic">Software Engineering.</span>
+            </h1>
+            <p class="text-slate-400 text-lg mb-10 leading-relaxed">
+                As an <strong>IT Manager</strong> and <strong>Software Engineer</strong>, I specialize in bridging the gap between business needs and technological solutions. I help enterprises optimize operations in Logistics, Agriculture, and Food Services.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="mailto:chau@chaulee.com" class="bg-white text-slate-900 px-8 py-4 rounded-lg font-bold hover:bg-blue-500 hover:text-white transition shadow-lg shadow-blue-500/20">
+                    Let's Collaborate
+                </a>
+                <div class="flex items-center gap-4 ml-4">
+                    <a href="#" class="text-slate-400 hover:text-white text-xl"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-slate-400 hover:text-white text-xl"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="expertise" class="bg-slate-800/50 border border-slate-700 p-8 rounded-3xl backdrop-blur-sm">
+            <h3 class="text-white font-bold mb-6 flex items-center gap-2 uppercase text-xs tracking-widest text-slate-400">
+                <i class="fas fa-microchip text-blue-500"></i> Technical Expertise
+            </h3>
+            <div class="space-y-6">
+                <div>
+                    <div class="flex justify-between mb-2 text-sm font-medium">
+                        <span>Software Architecture (Laravel/PHP)</span>
+                        <span class="text-blue-400">95%</span>
+                    </div>
+                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                        <div class="bg-blue-500 h-full w-[95%]"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-2 text-sm font-medium">
+                        <span>ERP & CRM (MS Dynamics 365)</span>
+                        <span class="text-blue-400">90%</span>
+                    </div>
+                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                        <div class="bg-blue-500 h-full w-[90%]"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-2 text-sm font-medium">
+                        <span>Cloud Infrastructure (Vultr/AWS)</span>
+                        <span class="text-blue-400">85%</span>
+                    </div>
+                    <div class="w-full bg-slate-700 h-1.5 rounded-full overflow-hidden">
+                        <div class="bg-blue-500 h-full w-[85%]"></div>
+                    </div>
+                </div>
+                <div class="pt-4 grid grid-cols-2 gap-4">
+                    <div class="bg-slate-900/50 p-3 rounded border border-slate-700 text-center text-xs">Full-stack Dev</div>
+                    <div class="bg-slate-900/50 p-3 rounded border border-slate-700 text-center text-xs">IT Management</div>
+                    <div class="bg-slate-900/50 p-3 rounded border border-slate-700 text-center text-xs">Data Security</div>
+                    <div class="bg-slate-900/50 p-3 rounded border border-slate-700 text-center text-xs">Project Planning</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultancy" class="bg-slate-800/30 py-24 border-y border-slate-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h3 class="text-emerald-400 font-mono text-sm uppercase tracking-widest mb-4">Business Solutions</h3>
+                <h2 class="text-4xl font-bold text-white mb-6">Expert IT Consulting for Your Industry</h2>
+                <p class="text-slate-400">Transforming traditional businesses with modern software infrastructure. I provide consultancy and deployment services in:</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="p-6 bg-slate-900 rounded-xl border border-slate-700 hover:border-emerald-500 transition cursor-default">
+                    <i class="fas fa-truck-moving text-2xl text-emerald-500 mb-4"></i>
+                    <h4 class="text-white font-bold mb-2">Transport</h4>
+                    <p class="text-slate-500 text-xs">Optimizing journey tracking and logistics management.</p>
+                </div>
+                <div class="p-6 bg-slate-900 rounded-xl border border-slate-700 hover:border-emerald-500 transition cursor-default">
+                    <i class="fas fa-seedling text-2xl text-emerald-500 mb-4"></i>
+                    <h4 class="text-white font-bold mb-2">Agriculture</h4>
+                    <p class="text-slate-500 text-xs">Tech integration for plantation monitoring and yield management.</p>
+                </div>
+                <div class="p-6 bg-slate-900 rounded-xl border border-slate-700 hover:border-emerald-500 transition cursor-default">
+                    <i class="fas fa-utensils text-2xl text-emerald-500 mb-4"></i>
+                    <h4 class="text-white font-bold mb-2">Food Services</h4>
+                    <p class="text-slate-500 text-xs">Point-of-Sale (POS) and inventory control systems.</p>
+                </div>
+                <div class="p-6 bg-slate-900 rounded-xl border border-slate-700 hover:border-emerald-500 transition cursor-default">
+                    <i class="fas fa-hand-holding-heart text-2xl text-emerald-500 mb-4"></i>
+                    <h4 class="text-white font-bold mb-2">Service Sector</h4>
+                    <p class="text-slate-500 text-xs">Digital profiles and customer engagement for salon businesses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="flex justify-between items-end mb-12">
+            <div>
+                <h3 class="text-3xl font-bold text-white">Active Ventures</h3>
+                <p class="text-slate-500 mt-2">Core projects currently under my management.</p>
+            </div>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-10 text-left">
+            <div class="group bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:bg-slate-800 transition duration-500">
+                <div class="flex justify-between items-start mb-6">
+                    <div class="w-14 h-14 bg-blue-500/10 text-blue-500 rounded-2xl flex items-center justify-center text-2xl group-hover:bg-blue-500 group-hover:text-white transition duration-500">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <span class="text-[10px] font-bold text-blue-400 border border-blue-400 px-2 py-1 rounded">GLOBAL</span>
+                </div>
+                <h4 class="text-2xl font-bold text-white mb-2">Lamusic.us</h4>
+                <p class="text-slate-400 mb-6 italic leading-relaxed">Music Ecosystem for the Vietnamese Community in the USA.</p>
+                <ul class="text-slate-500 text-sm space-y-2 mb-8">
+                    <li><i class="fas fa-check text-emerald-500 mr-2"></i> Piano & Guitar Chords Database</li>
+                    <li><i class="fas fa-check text-emerald-500 mr-2"></i> Integrated eGift System</li>
+                </ul>
+                <a href="https://lamusic.us" class="inline-flex items-center text-blue-400 font-bold hover:gap-4 transition-all">VISIT PLATFORM <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+
+            <div class="group bg-slate-800/50 p-8 rounded-3xl border border-slate-700 hover:bg-slate-800 transition duration-500">
+                <div class="flex justify-between items-start mb-6">
+                    <div class="w-14 h-14 bg-emerald-500/10 text-emerald-500 rounded-2xl flex items-center justify-center text-2xl group-hover:bg-emerald-500 group-hover:text-white transition duration-500">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <span class="text-[10px] font-bold text-emerald-400 border border-emerald-400 px-2 py-1 rounded">R&D PHASE</span>
+                </div>
+                <h4 class="text-2xl font-bold text-white mb-2">C4 Journey Assistant</h4>
+                <p class="text-slate-400 mb-6 italic leading-relaxed">Smart Logistics & Driver Support Application.</p>
+                <ul class="text-slate-500 text-sm space-y-2 mb-8">
+                    <li><i class="fas fa-check text-emerald-500 mr-2"></i> Route Optimization Algorithms</li>
+                    <li><i class="fas fa-check text-emerald-500 mr-2"></i> Real-time Fleet Management</li>
+                </ul>
+                <p class="text-slate-600 font-mono text-xs uppercase tracking-widest">Inquire for Collaboration</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-800 text-center">
+        <p class="text-slate-500 text-sm uppercase tracking-widest">
+            © 2026 Chau Le Van | Silicon Valley Infrastructure | Built with Tailwind CSS
+        </p>
+    </footer>
+
+</body>
+</html>
